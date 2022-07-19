@@ -1,3 +1,4 @@
 ### ignorar los archivos de configuracion ###
 
 secret.json
+static/bootstrap

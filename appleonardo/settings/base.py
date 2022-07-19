@@ -77,8 +77,8 @@ TEMPLATES = [
 WSGI_APPLICATION = 'appleonardo.wsgi.application'
 
 
-SESSION_COOKIE_AGE = 5*600
-SESSION_EXPIRE_AT_BROWSER_CLOSE = True
+SESSION_COOKIE_AGE = 5*300
+SESSION_EXPIRE_AT_BROWSER_CLOSE = False
 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
